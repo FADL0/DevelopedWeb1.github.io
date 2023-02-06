@@ -1,0 +1,726 @@
+
+ *{
+    padding: 0;
+    margin: 0;
+   font-family: 'Open Sans', sans-serif;
+ }
+ body{
+
+  background-image: url("me2.png") ;
+  background-color: rgba(3, 3, 37, 0.856);
+  background-blend-mode: soft-light;
+  background-size: cover;
+background-position: center;
+
+ }
+
+ .myname{
+   position: relative;
+   top: 400px;
+   color: #9accee;
+   font-size: 35px;
+   text-align: center;
+   font-family: 'Montserrat' ;
+   font-size: 70px;
+   box-sizing: border-box;
+}
+
+/* Cases */
+.alligning {
+   
+ 
+ 
+   display: flex;
+   flex-wrap: wrap;
+   gap: 15px;
+   position: relative;
+   top: 600px;
+    padding: 40px;
+    list-style: none;
+    
+   }
+/* Squares */
+
+   #square1 {
+      background-color: rgba(7, 110, 29, 0.801);
+      height: 150px;
+      width: 570px;
+      position: relative;
+      top: 430px;
+   }
+   #square2 {
+      background-color: rgba(184, 150, 0, 0.801);
+      height: 150px;
+      width: 570px;
+      position: relative;
+      top: 430px;
+   }
+
+   #square3 {
+      background-color: rgba(5, 19, 150, 0.651);
+      height: 150px;
+      width: 570px;
+      position: relative;
+      top: 430px;
+   }
+   #square4 {
+      background-color: rgba(146, 60, 3, 0.719);
+      height: 150px;
+      width: 570px;
+      position: relative;
+      top: 430px;
+   }
+   #square5 {
+      background-color: rgba(3, 172, 184, 0.801);
+      height: 150px;
+      width: 570px;
+      position: relative;
+      top: 430px;
+   }
+   #square6 {
+      background-color: rgba(138, 209, 250, 0.363);
+      height: 150px;
+      width: 570px;
+      position: relative;
+      top: 430px;
+   }
+   #square7 {
+      background-color: rgba(16, 221, 228, 0.801);
+      height: 150px;
+      width: 570px;
+      position: relative;
+      top: 430px;
+   }
+   #square8 {
+      background-color: rgba(220, 20, 238, 0.801);
+      height: 150px;
+      width: 570px;
+      position: relative;
+      top: 430px;
+   }
+   #square9 {
+      background-color: rgba(201, 15, 46, 0.753);
+      height: 150px;
+      width: 570px;
+      position: relative;
+      top: 430px;
+   }
+/* Square End */
+   /* We1 */
+
+#we1{
+ 
+   height: 580px;
+   width: 570px;
+    background-image: url("jaune.jpg");
+    background-size: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+     }
+
+ #we1 p {
+   color: white;
+   
+  text-align: center;
+   text-transform: capitalize;
+ }   
+ 
+ #we1 h2 {
+   text-decoration: none;
+   text-transform: uppercase;
+   color: white;
+text-align: center;
+ }  
+
+#we1:hover{
+   background-image: url("sansjaune.jpg");
+}
+
+
+/* We1 end */
+
+/* We2 */
+#we2{
+   background-size: 100%;
+   height: 580px;
+   width: 570px;
+    background-image: url("vert.jpg");
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#we2 p {
+   color: white;
+   
+   text-align: center;
+    text-transform: capitalize;
+ }   
+ 
+ #we2 h2 {
+   text-decoration: none;
+   text-transform: uppercase;
+   color: white;
+text-align: center
+ }  
+#we2:hover{
+   background-image: url("sansVert.jpg");
+}
+
+/* We2 end */
+
+/* We3 */
+#we3{
+   height: 580px;
+   width: 570px;
+    background-image: url("bleu.jpg");
+    background-size: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#we3 p {
+   color: white;
+   
+   text-align: center;
+    text-transform: capitalize;
+ }   
+ 
+ #we3 h2 {
+   text-decoration: none;
+   text-transform: uppercase;
+   color: white;
+text-align: center
+ }  
+#we3:hover{
+   background-image: url("sansBleu.jpg");
+}
+/* We3 end */
+
+/* We4 */
+#we4{
+   
+   height: 580px;
+   width: 570px;
+    background-image: url("rouge.jpg");
+    display: flex;
+    flex-wrap: wrap;
+    background-size: 100%;
+}
+#we4 p {
+   color: white;
+   text-align: center;
+    text-transform: capitalize;
+ }   
+ 
+ #we4 h2 {
+   text-decoration: none;
+   text-transform: uppercase;
+   color: white;
+text-align: center
+ }  
+#we4:hover{
+   background-image: url("sansRouge.jpg");
+}
+/* We4 end */
+
+/* We5 */
+#we5{
+   height: 580px;
+   width: 570px;
+    background-image: url("bleuClair.jpg");
+    background-size: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#we5 p {
+   color: white;
+   
+   text-align: center;
+    text-transform: capitalize;
+ }   
+ 
+ #we5 h2 {
+   text-decoration: none;
+   text-transform: uppercase;
+   color: white;
+text-align: center
+ }  
+#we5:hover{
+   background-image: url("sansBleuClair.jpg");
+}
+
+/* We5 end */
+/* We6 */
+
+#we6{
+   height: 580px;
+   width: 570px;
+    background-image: url("vertClair.jpg");
+    background-size: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#we6 p {
+   color: white;
+   
+   text-align: center;
+    text-transform: capitalize;
+ }   
+ 
+ #we6 h2 {
+   text-decoration: none;
+   text-transform: uppercase;
+   color: white;
+text-align: center
+ }  
+#we6:hover{
+   background-image: url("sansVertClair.jpg");
+}
+/* We6 end */
+/* We7 */
+#we7{
+   height: 580px;
+   width: 570px;
+    background-image: url("violet.jpg");
+    background-size: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#we7 p {
+   color: white;
+   
+  text-align: center;
+   text-transform: capitalize;
+ }   
+ 
+ #we7 h2 {
+   text-decoration: none;
+   text-transform: uppercase;
+   color: white;
+text-align: center
+ }  
+#we7:hover{
+   background-image: url("sansViolet.jpg");
+}
+/* We7 end */
+/* We8 */
+#we8{
+   height: 580px;
+   width: 570px;
+    background-image: url("violet.jpg");
+    background-size: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#we8 p {
+   color: white;
+   
+   text-align: center;
+    text-transform: capitalize;
+ }   
+ 
+ #we8 h2 {
+   text-decoration: none;
+   text-transform: uppercase;
+   color: white;
+text-align: center
+ }  
+#we8:hover{
+   background-image: url("sansViolet.jpg");
+}
+
+/* We8 end */
+/* We9 */
+#we9{
+   height: 580px;
+   width: 570px;
+
+    background-image: url("rouge2.jpg");
+    background-size: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#we9 p {
+   color: white;
+   
+  text-align: center;
+   text-transform: capitalize;
+ }   
+ 
+ #we9 h2 {
+   text-decoration: none;
+   text-transform: uppercase;
+   color: white;
+text-align: center
+ }  
+#we9:hover{
+   background-image: url("sansRouge2.jpg");
+}
+/* We9 End */
+
+/* End cases */
+
+ 
+/* Email + Text */
+
+.Prep1{
+   display: block;
+   
+  color: white;
+  text-align: center;
+position: relative;
+top: 900px;
+text-transform: uppercase;
+width: 500px;
+height: 50px;
+margin: 0 auto;
+}
+
+.Prep2{
+   display: block;
+   background-color: rgb(41, 255, 255);
+  color: black;
+  text-align: center;
+position: relative;
+top: 900px;
+text-transform: uppercase;
+width: 200px;
+height: 50px;
+margin: 0 auto;
+text-underline-offset: 999px;
+
+}
+
+.Prep2 a{
+
+  color: black;
+
+}
+
+
+/* Email + Text end */
+
+ /* footer */
+ .imagesize{
+   height: auto;
+   width: auto;
+ }
+
+ .sotrue{
+   
+   position: relative;
+   left: 0;
+   top: 1000px;
+
+   background-color: rgba(89, 197, 247, 0.808);
+   height: 300px;
+   text-underline-offset: 999px;
+   
+  
+   
+ }
+ .sotrue p {
+   padding-top:80px;
+   text-align: center;
+  
+ }
+ .sotrue a {
+   color: aqua;
+ }
+ .iconstuff {
+   margin: auto;
+   flex-wrap: nowrap;
+   list-style: none;
+    display: flex;
+   max-width: 20%;
+   max-height: 80%;
+    gap: 20px;
+ }
+ .iconstuff a{
+display: block;
+ }
+ .copyright{
+   background-color: rgba(9, 153, 153, 0.74);
+   height: 48px;
+  color: white;
+  position: relative;
+  top: 40px;
+
+ }
+ .copyright p{
+ 
+  position: relative;
+  bottom: 60px;
+
+ }
+ /* end Footer */
+ @media screen and (max-width: 1249px) {
+ 
+
+   .myname{
+      font-size: 50px;
+      display: block;
+   }
+ #we2{
+   width: 380px;
+   height: 400px;
+
+ }
+   #square1{
+      width: 390px;
+      height: 100px;
+      top: 0;
+      top: 300px;
+
+   }
+
+   #we1{
+      width: 380px;
+      height: 400px;
+   
+    }
+      #square2{
+         width: 390px;
+         height: 100px;
+         top: 0;
+         top: 300px;
+   
+      }
+      #we3{
+         width: 380px;
+         height: 400px;
+      
+       }
+         #square3{
+            width: 390px;
+            height: 100px;
+            top: 0;
+            top: 300px;
+      
+         }
+         #we4{
+            width: 380px;
+            height: 400px;
+         
+          }
+            #square4{
+               width: 390px;
+               height: 100px;
+               top: 0;
+               top: 300px;
+         
+            }
+            #we5{
+               width: 380px;
+               height: 400px;
+            
+             }
+               #square5{
+                  width: 390px;
+                  height: 100px;
+                  top: 0;
+                  top: 300px;
+            
+               }
+               #we6{
+                  width: 380px;
+                  height: 400px;
+               
+                }
+                  #square6{
+                     width: 390px;
+                     height: 100px;
+                     top: 0;
+                     top: 300px;
+               
+                  }
+                  #we7{
+                     width: 380px;
+                     height: 400px;
+                  
+                   }
+                     #square7{
+                        width: 390px;
+                        height: 100px;
+                        top: 0;
+                        top: 300px;
+                  
+                     }
+                     #we8{
+                        width: 380px;
+                        height: 400px;
+                     
+                      }
+                        #square8{
+                           width: 390px;
+                           height: 100px;
+                           top: 0;
+                           top: 300px;
+                     
+                        }
+                        #we9{
+                           width: 380px;
+                           height: 400px;
+                        
+                         }
+                           #square9{
+                              width: 390px;
+                              height: 100px;
+                              top: 0;
+                              top: 300px;
+                        
+                           }
+
+ }
+
+ @media screen and  (max-width: 900px) {
+ 
+.myname{
+   font-size: 35px;
+}
+
+#we2{
+   width: 300px;
+   height: 300px;
+
+ }
+   #square1{
+      width: 390px;
+      height: 100px;
+      top: 0;
+      top: 200px;
+
+   }
+   #we1{
+      width: 300px;
+      height: 300px;
+   
+    }
+      #square2{
+         width: 390px;
+         height: 100px;
+         top: 0;
+         top: 200px;
+   
+      }
+      #we3{
+         width: 300px;
+         height: 300px;
+      
+       }
+         #square3{
+            width: 390px;
+            height: 100px;
+            top: 0;
+            top: 200px;
+      
+         }
+
+         #we4{
+            width: 300px;
+            height: 300px;
+         
+          }
+            #square4{
+               width: 390px;
+               height: 100px;
+               top: 0;
+               top: 200px;
+         
+            }
+
+            #we5{
+               width: 300px;
+               height: 300px;
+            
+             }
+               #square5{
+                  width: 390px;
+                  height: 100px;
+                  top: 0;
+                  top: 200px;
+            
+               }
+
+               #we6{
+                  width: 300px;
+                  height: 300px;
+               
+                }
+                  #square6{
+                     width: 390px;
+                     height: 100px;
+                     top: 0;
+                     top: 200px;
+               
+                  }
+
+                  #we7{
+                     width: 300px;
+                     height: 300px;
+                  
+                   }
+                     #square7{
+                        width: 390px;
+                        height: 100px;
+                        top: 0;
+                        top: 200px;
+                  
+                     }
+
+                     #we8{
+                        width: 300px;
+                        height: 300px;
+                     
+                      }
+                        #square8{
+                           width: 390px;
+                           height: 100px;
+                           top: 0;
+                           top: 200px;
+                     
+                        }
+
+                        #we9{
+                           width: 300px;
+                           height: 300px;
+                        
+                         }
+                           #square9{
+                              width: 390px;
+                              height: 100px;
+                              top: 0;
+                              top: 200px;
+                        
+                           }
+                           .alligning p{
+                              font-size: medium;
+                           }
+                           .alligning h2{
+                              font-size: medium;
+                           }                    
+ }
+ @media screen and (max-width: 655px) {
+   .copyright p{
+      font-size: xx-small;
+   }
+   .sotrue p{
+      font-size: xx-small;
+   }
+ .imagesize{
+   height: 20px;
+   width: 20px;
+  position: relative;
+  right: 25px;
+ }
+ .copyright{
+
+   top: 81px;
+ }
+ .Prep1{
+   font-size: x-small;
+   position: relative;
+  
+ }
+ 
+}
